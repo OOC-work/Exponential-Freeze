@@ -10,8 +10,16 @@
 第一版:Nextion的TTF檔+Arduino的Arduino.ino  
 第二版:主要是Arduino的Arduino.ino
 # 項目核心
-PID算法
-未來:MPC(Model Predictive Controller)
+## 核心運算:
+第一版:PID算法(Proportional Integral Derivative)   
+第二版:未來:MPC(Model Predictive Controller)+PID(Proportional Integral Derivative)  
+## 核心配置:
+第一版:使用ATmega2560來控制多個多元，但沒網路功能。  
+第二版:使用ESP-32-32UE體積小且有藍牙和Wi-Fi功能，但擴充性低。 
+## 核心控制單元:
+第一版:使用現成模塊
+第二版:使用EL817(C)光電偶隔離大電、小電，Mosfet更改為SQJA66EP-T1_GE3控制電壓60V電壓75A控制能力大大提升。
+## 核心程式:
 # 項目畫廊
 
 
